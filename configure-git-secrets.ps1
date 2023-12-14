@@ -23,6 +23,7 @@ $patterns = @(
     'connectionString = ',
     '-----BEGIN PRIVATE KEY-----',
     '-----BEGIN PUBLIC KEY-----'
+    '^[a-zA-Z0-9/+=]+$'
 )
 
 foreach ($pattern in $patterns) {
